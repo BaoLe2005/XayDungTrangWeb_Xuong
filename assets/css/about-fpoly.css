@@ -1,0 +1,40 @@
+#about-fpoly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-image: url('https://caodang.fpt.edu.vn/wp-content/uploads/FPT_Polytechnic_banner-1-2.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about-fpoly .container {
+    display: flex;
+    justify-content: center;
+}
+
+.container .column-1 {
+    float: left;
+    width: calc(100% / 4);
+}
+
+.container .column-1 img {
+    float: left;
+    width: 15%;
+}
+
+.container .column-1 .content {
+    margin-left: 16px;
+    float: left;
+} 
+
+.container .column-1 img::after, 
+.container .column-1 .content::after {
+    clear: left;
+}
+
+
+
+
+
