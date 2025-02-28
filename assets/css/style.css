@@ -24,7 +24,6 @@
     column-count: calc(100% / 3);
     padding: 50px 30px 50px 50px;
     display: inline-block;
-    float: top;
     transform: translateY(-55%);
 }
 
@@ -84,6 +83,7 @@
     color: #F7941D;
     margin-bottom: 20px;
 }
+
 #footer p
 {
     color: white;
