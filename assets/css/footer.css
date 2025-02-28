@@ -16,7 +16,7 @@
     width: 100%;
     padding-top: 3.5% ;
     font-family:Arial, Helvetica, sans-serif;
-      
+    height: 740px;
 }
 
 #footer .column-33
@@ -62,6 +62,11 @@
     border: 1px solid white;
     border-radius: 20%;
     margin-top: 10px;
+}
+
+#footer .p-coso
+{
+    text-decoration: underline;
 }
 
 #footer .ph
