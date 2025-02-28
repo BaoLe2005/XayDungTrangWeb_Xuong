@@ -37,6 +37,7 @@
   bottom: 0;
   opacity: 0.5;
   z-index: 0;
+  clear: left;
 }
 /* Column-special */
 
@@ -55,34 +56,34 @@
     color: rgba(0, 0, 0, 0.6);
 }
 /* Column-3 */
-.container .column-3 .description {
+#industry .container .column-3 .description {
   position: absolute;
   padding: 0px 25px;
   z-index: 99;
 }
 
-.container .column-3.col-1 .description,
-.container .column-3.col-2 .description,
-.container .column-3.col-4 .description,
-.container .column-3.col-5 .description {
+#industry .container .column-3.col-1 .description,
+#industry .container .column-3.col-2 .description,
+#industry .container .column-3.col-4 .description,
+#industry .container .column-3.col-5 .description {
   top: 160px;
 }
 
-.container .column-3.col-3 .description {
+#industry .container .column-3.col-3 .description {
   top: 140px;
 }
 
-.container .column-3 .description .industry-name {
+#industry .container .column-3 .description .industry-name {
   margin-bottom: 12px;
   color: #fff;
 }
 
-.container .column-3 .description p {
+#industry .container .column-3 .description p {
   display: none;
   opacity: 0;
 }
 
-.container .column-3 .description a {
+#industry .container .column-3 .description a {
   display: block;
   margin: 10px 0px;
   font-size: 12px;
@@ -91,43 +92,43 @@
   text-decoration: none;
 }
 /* Background-color */
-.container .col-1:after {
+#industry .container .col-1:after {
   background-color: #003471;
 }
 
-.container .col-2:after {
+#industry .container .col-2:after {
   background-color: #3cb878;
 }
 
-.container .col-3:after {
+#industry .container .col-3:after {
   background-color: #004a80;
 }
 
-.container .col-4:after {
+#industry .container .col-4:after {
   background-color: #20ccb2;
 }
 
-.container .col-5:after {
+#industry .container .col-5:after {
   background-color: #f26522;
 }
 /* Hover */
-.container .column-3:hover:after {
+#industry .container .column-3:hover:after {
   opacity: 0.68;
   background-color: #272f54;
 }
 
-.container .column-3:hover .description {
+#industry .container .column-3:hover .description {
   top: 18px;
   transition: 0.5s;
 }
 
-.container .column-3:hover .description p {
+#industry .container .column-3:hover .description p {
   display: block;
   opacity: 1;
   transform: 5s;
 }
 
-.container .column-3:hover .description h3,
-.container .column-3 .description p a:hover {
+#industry .container .column-3:hover .description h3,
+#industry .container .column-3 .description p a:hover {
     color: orange;
 }
