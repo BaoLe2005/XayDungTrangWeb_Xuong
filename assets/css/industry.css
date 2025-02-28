@@ -39,11 +39,21 @@
   z-index: 0;
 }
 /* Column-special */
+
 #industry .container .column-special .description {
-  padding: 0px 0px;
-  padding-right: 50px;
+    padding: 0px 0px;
+    padding-right: 50px;
 }
 
+#industry .container .column-special .description h3 {
+    margin: 18px 0px;
+    font-size: 24px;
+}
+
+#industry .container .column-special .description p {
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.6);
+}
 /* Column-3 */
 .container .column-3 .description {
   position: absolute;
