@@ -1,0 +1,22 @@
+#industry {
+    position: relative;
+    padding: 50px 0px;
+    height: 614px;
+    background-color: #D7D7D7;
+}
+
+#industry .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px 30px;
+    width: 1110px;
+    height: 514px;
+    background-color: #fff;
+}
+
+#industry .container .column-3 {
+    float: left;
+    width: calc(100% / 3);
+}
